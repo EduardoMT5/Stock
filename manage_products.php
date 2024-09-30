@@ -112,14 +112,14 @@ $products = $stmt->fetchAll();
                     data-ubicacion="<?php echo htmlspecialchars($product['ubicacion']); ?>">
                 Editar
             </button>
-          <!--   <button type="button" class="btn btn-outline-danger btn-sm delete-button" 
+            <button type="button" class="btn btn-outline-danger btn-sm delete-button" 
                     data-id="<?php echo $product['id']; ?>">
                 Borrar
 <<<<<<< HEAD
             </button>
             
 =======
-            </button> -->
+            </button>
 >>>>>>> 557c9a35ef5e70850749bc114eff1febaa50ed0c
         </td>
     </tr>
