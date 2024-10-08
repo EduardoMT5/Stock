@@ -112,7 +112,19 @@ $products = $stmt->fetchAll();
                     data-ubicacion="<?php echo htmlspecialchars($product['ubicacion']); ?>">
                 Editar 
             </button>
+<<<<<<< HEAD
              
+=======
+            <button type="button" class="btn btn-outline-danger btn-sm delete-button" 
+                    data-id="<?php echo $product['id']; ?>">
+                Borrar
+<<<<<<< HEAD
+            </button>
+            
+=======
+            </button>
+>>>>>>> 557c9a35ef5e70850749bc114eff1febaa50ed0c
+>>>>>>> ba26885f185d97164c93b5a63d1f8479cf107a5b
         </td>
     </tr>
 <?php endforeach; ?>
